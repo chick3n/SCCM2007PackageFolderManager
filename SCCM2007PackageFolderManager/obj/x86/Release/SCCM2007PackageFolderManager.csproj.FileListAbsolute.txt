@@ -1,0 +1,15 @@
+C:\Users\kungfudeathgrip.DEV\documents\visual studio 2010\Projects\SCCM2007PackageFolderManager\SCCM2007PackageFolderManager\bin\Release\adminui.wqlqueryengine.dll
+C:\Users\kungfudeathgrip.DEV\documents\visual studio 2010\Projects\SCCM2007PackageFolderManager\SCCM2007PackageFolderManager\bin\Release\microsoft.configurationmanagement.dll
+C:\Users\kungfudeathgrip.DEV\documents\visual studio 2010\Projects\SCCM2007PackageFolderManager\SCCM2007PackageFolderManager\bin\Release\microsoft.configurationmanagement.managementprovider.dll
+C:\Users\kungfudeathgrip.DEV\documents\visual studio 2010\Projects\SCCM2007PackageFolderManager\SCCM2007PackageFolderManager\bin\Release\SMSCommunicator.dll
+C:\Users\kungfudeathgrip.DEV\documents\visual studio 2010\Projects\SCCM2007PackageFolderManager\SCCM2007PackageFolderManager\bin\Release\MS.ErrorReporting.dll
+C:\Users\kungfudeathgrip.DEV\documents\visual studio 2010\Projects\SCCM2007PackageFolderManager\SCCM2007PackageFolderManager\bin\Release\SMSCommunicator.pdb
+C:\Users\kungfudeathgrip.DEV\documents\visual studio 2010\Projects\SCCM2007PackageFolderManager\SCCM2007PackageFolderManager\obj\x86\Release\SCCM2007PackageFolderManager.FolderManager.resources
+C:\Users\kungfudeathgrip.DEV\documents\visual studio 2010\Projects\SCCM2007PackageFolderManager\SCCM2007PackageFolderManager\obj\x86\Release\SCCM2007PackageFolderManager.OutputReader.resources
+C:\Users\kungfudeathgrip.DEV\documents\visual studio 2010\Projects\SCCM2007PackageFolderManager\SCCM2007PackageFolderManager\obj\x86\Release\SCCM2007PackageFolderManager.Properties.Resources.resources
+C:\Users\kungfudeathgrip.DEV\documents\visual studio 2010\Projects\SCCM2007PackageFolderManager\SCCM2007PackageFolderManager\obj\x86\Release\SCCM2007PackageFolderManager.csproj.GenerateResource.Cache
+C:\Users\kungfudeathgrip.DEV\documents\visual studio 2010\Projects\SCCM2007PackageFolderManager\SCCM2007PackageFolderManager\obj\x86\Release\SCCM2007PackageFolderManager.csprojResolveAssemblyReference.cache
+C:\Users\kungfudeathgrip.DEV\documents\visual studio 2010\Projects\SCCM2007PackageFolderManager\SCCM2007PackageFolderManager\bin\Release\FolderManagerGUI.exe
+C:\Users\kungfudeathgrip.DEV\documents\visual studio 2010\Projects\SCCM2007PackageFolderManager\SCCM2007PackageFolderManager\bin\Release\FolderManagerGUI.pdb
+C:\Users\kungfudeathgrip.DEV\documents\visual studio 2010\Projects\SCCM2007PackageFolderManager\SCCM2007PackageFolderManager\obj\x86\Release\FolderManagerGUI.exe
+C:\Users\kungfudeathgrip.DEV\documents\visual studio 2010\Projects\SCCM2007PackageFolderManager\SCCM2007PackageFolderManager\obj\x86\Release\FolderManagerGUI.pdb

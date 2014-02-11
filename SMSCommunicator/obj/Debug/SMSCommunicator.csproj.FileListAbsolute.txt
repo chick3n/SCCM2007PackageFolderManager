@@ -1,0 +1,9 @@
+C:\Users\kungfudeathgrip.DEV\documents\visual studio 2010\Projects\SCCM2007PackageFolderManager\SMSCommunicator\obj\Debug\SMSCommunicator.csprojResolveAssemblyReference.cache
+C:\Users\kungfudeathgrip.DEV\documents\visual studio 2010\Projects\SCCM2007PackageFolderManager\SMSCommunicator\bin\Debug\SMSCommunicator.dll
+C:\Users\kungfudeathgrip.DEV\documents\visual studio 2010\Projects\SCCM2007PackageFolderManager\SMSCommunicator\bin\Debug\SMSCommunicator.pdb
+C:\Users\kungfudeathgrip.DEV\documents\visual studio 2010\Projects\SCCM2007PackageFolderManager\SMSCommunicator\bin\Debug\adminui.wqlqueryengine.dll
+C:\Users\kungfudeathgrip.DEV\documents\visual studio 2010\Projects\SCCM2007PackageFolderManager\SMSCommunicator\bin\Debug\microsoft.configurationmanagement.dll
+C:\Users\kungfudeathgrip.DEV\documents\visual studio 2010\Projects\SCCM2007PackageFolderManager\SMSCommunicator\bin\Debug\microsoft.configurationmanagement.managementprovider.dll
+C:\Users\kungfudeathgrip.DEV\documents\visual studio 2010\Projects\SCCM2007PackageFolderManager\SMSCommunicator\bin\Debug\MS.ErrorReporting.dll
+C:\Users\kungfudeathgrip.DEV\documents\visual studio 2010\Projects\SCCM2007PackageFolderManager\SMSCommunicator\obj\Debug\SMSCommunicator.dll
+C:\Users\kungfudeathgrip.DEV\documents\visual studio 2010\Projects\SCCM2007PackageFolderManager\SMSCommunicator\obj\Debug\SMSCommunicator.pdb

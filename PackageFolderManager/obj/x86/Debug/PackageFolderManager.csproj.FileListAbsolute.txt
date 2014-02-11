@@ -1,0 +1,11 @@
+C:\Users\kungfudeathgrip.DEV\documents\visual studio 2010\Projects\SCCM2007PackageFolderManager\PackageFolderManager\bin\Debug\PackageFolderManager.exe
+C:\Users\kungfudeathgrip.DEV\documents\visual studio 2010\Projects\SCCM2007PackageFolderManager\PackageFolderManager\bin\Debug\PackageFolderManager.pdb
+C:\Users\kungfudeathgrip.DEV\documents\visual studio 2010\Projects\SCCM2007PackageFolderManager\PackageFolderManager\bin\Debug\adminui.wqlqueryengine.dll
+C:\Users\kungfudeathgrip.DEV\documents\visual studio 2010\Projects\SCCM2007PackageFolderManager\PackageFolderManager\bin\Debug\microsoft.configurationmanagement.dll
+C:\Users\kungfudeathgrip.DEV\documents\visual studio 2010\Projects\SCCM2007PackageFolderManager\PackageFolderManager\bin\Debug\microsoft.configurationmanagement.managementprovider.dll
+C:\Users\kungfudeathgrip.DEV\documents\visual studio 2010\Projects\SCCM2007PackageFolderManager\PackageFolderManager\bin\Debug\SMSCommunicator.dll
+C:\Users\kungfudeathgrip.DEV\documents\visual studio 2010\Projects\SCCM2007PackageFolderManager\PackageFolderManager\bin\Debug\MS.ErrorReporting.dll
+C:\Users\kungfudeathgrip.DEV\documents\visual studio 2010\Projects\SCCM2007PackageFolderManager\PackageFolderManager\bin\Debug\SMSCommunicator.pdb
+C:\Users\kungfudeathgrip.DEV\documents\visual studio 2010\Projects\SCCM2007PackageFolderManager\PackageFolderManager\obj\x86\Debug\PackageFolderManager.csprojResolveAssemblyReference.cache
+C:\Users\kungfudeathgrip.DEV\documents\visual studio 2010\Projects\SCCM2007PackageFolderManager\PackageFolderManager\obj\x86\Debug\PackageFolderManager.exe
+C:\Users\kungfudeathgrip.DEV\documents\visual studio 2010\Projects\SCCM2007PackageFolderManager\PackageFolderManager\obj\x86\Debug\PackageFolderManager.pdb

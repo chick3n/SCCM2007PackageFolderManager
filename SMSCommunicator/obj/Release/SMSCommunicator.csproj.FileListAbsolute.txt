@@ -1,0 +1,8 @@
+C:\Users\kungfudeathgrip.DEV\documents\visual studio 2010\Projects\SCCM2007PackageFolderManager\SMSCommunicator\bin\Release\SMSCommunicator.dll
+C:\Users\kungfudeathgrip.DEV\documents\visual studio 2010\Projects\SCCM2007PackageFolderManager\SMSCommunicator\bin\Release\SMSCommunicator.pdb
+C:\Users\kungfudeathgrip.DEV\documents\visual studio 2010\Projects\SCCM2007PackageFolderManager\SMSCommunicator\bin\Release\adminui.wqlqueryengine.dll
+C:\Users\kungfudeathgrip.DEV\documents\visual studio 2010\Projects\SCCM2007PackageFolderManager\SMSCommunicator\bin\Release\microsoft.configurationmanagement.dll
+C:\Users\kungfudeathgrip.DEV\documents\visual studio 2010\Projects\SCCM2007PackageFolderManager\SMSCommunicator\bin\Release\microsoft.configurationmanagement.managementprovider.dll
+C:\Users\kungfudeathgrip.DEV\documents\visual studio 2010\Projects\SCCM2007PackageFolderManager\SMSCommunicator\bin\Release\MS.ErrorReporting.dll
+C:\Users\kungfudeathgrip.DEV\documents\visual studio 2010\Projects\SCCM2007PackageFolderManager\SMSCommunicator\obj\Release\SMSCommunicator.dll
+C:\Users\kungfudeathgrip.DEV\documents\visual studio 2010\Projects\SCCM2007PackageFolderManager\SMSCommunicator\obj\Release\SMSCommunicator.pdb
