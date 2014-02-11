@@ -352,11 +352,13 @@ namespace SMSCommunicator.Controllers
                     {
                         if (pfdp.UsePoint == false)
                         {
+                            ErrorManager.AddOutput(String.Format("Removing DP: Package {0} DP {1}", package.Name, assignedPoint.DisplayName));
                             RemoveDistributionPointFromPackage(assignedPoint.NALPath, assignedPoint.SiteCode, package.PackageID);
                         }
                     } 
                     else if(pfdp.UsePoint) //dp is not assigned to package already
                     {
+                        ErrorManager.AddOutput(String.Format("Adding DP: Package {0} DP {1}", package.Name, pfdp.DisplayName));
                         AddDistributionPointToPackage(pfdp.NALPath, pfdp.SiteCode, package.PackageID);
                     }
 
@@ -366,6 +368,7 @@ namespace SMSCommunicator.Controllers
                 //remove remaining if any
                 foreach (var dp in assignedPoints)
                 {
+                    ErrorManager.AddOutput(String.Format("Removing DP: Package {0} DP {1}", package.Name, dp.DisplayName));
                     RemoveDistributionPointFromPackage(dp.NALPath, dp.SiteCode, package.PackageID);
                 }
             }            

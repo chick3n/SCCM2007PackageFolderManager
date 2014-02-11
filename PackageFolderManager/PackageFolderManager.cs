@@ -89,6 +89,7 @@ namespace PackageFolderManager
 
                 List<PackageFolder> folders = mappingController.GetMappings(server);
 
+                ErrorManager.AddOutput("Modifying Distribution points for mapped folders.");
                 foreach (var folder in folders)
                 {
                     var _packages = (from p in packages

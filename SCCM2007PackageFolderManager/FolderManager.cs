@@ -16,6 +16,7 @@ namespace SCCM2007PackageFolderManager
     public partial class FolderManager : Form
     {
         private FormController formController;
+        private AutoCompleteStringCollection savedServerNames;
 
         public FolderManager()
         {
@@ -28,7 +29,7 @@ namespace SCCM2007PackageFolderManager
 
         private void Begin_Load()
         {
-            txtServerName.Text = "SRVDEVSCCM01";
+            txtServerName.Text = "";
             DisableElements();
 
             imgList.Images.Add("Folder_Closed", Properties.Resources.Folder);
@@ -44,6 +45,13 @@ namespace SCCM2007PackageFolderManager
 
             ErrorManager.Instance.OutputMessageEvent += new ErrorManager.OutputMessageAdded(Instance_OutputMessageEvent);
             ErrorManager.Instance.OutputMessageCleared += new EventHandler(Instance_OutputMessageCleared);
+
+            savedServerNames = new AutoCompleteStringCollection();
+            savedServerNames.AddRange(formController.GetSavedServers());
+
+            txtServerName.AutoCompleteCustomSource = savedServerNames;
+            txtServerName.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
+            txtServerName.AutoCompleteSource = AutoCompleteSource.CustomSource;
         }
 
         void Instance_OutputMessageCleared(object sender, EventArgs e)
@@ -106,6 +114,7 @@ namespace SCCM2007PackageFolderManager
             btnLoad.Enabled = true;
             treePackages.Enabled = true;
             btnApply.Enabled = true;
+            btnSaveOnly.Enabled = true;
             lstDistributionPoints.Enabled = true;
             chkHidePxe.Enabled = true;
             //chkAllToggle.Enabled = true;
@@ -115,6 +124,7 @@ namespace SCCM2007PackageFolderManager
         {
             treePackages.Enabled = false;
             btnApply.Enabled = false;
+            btnSaveOnly.Enabled = false;
             lstDistributionPoints.Enabled = false;
             chkHidePxe.Enabled = false;
             chkAllToggle.Enabled = false;
@@ -241,7 +251,7 @@ namespace SCCM2007PackageFolderManager
 
         private void btnApply_Click(object sender, EventArgs e)
         {
-            ErrorManager.AddOutput("Beginning to Save folder mappings, please wait.");
+            ErrorManager.AddOutput("Beginning to Save folder mappings and apply changes, please wait.");
             DisableElements();
             formController.Save();
         }
@@ -261,6 +271,13 @@ namespace SCCM2007PackageFolderManager
         private void btnClear_Click(object sender, EventArgs e)
         {
             lstOutput.Items.Clear();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            ErrorManager.AddOutput("Beginning to Save folder mappings, please wait.");
+            DisableElements();
+            formController.Save(ApplyChanges: false);
         }
 
     }

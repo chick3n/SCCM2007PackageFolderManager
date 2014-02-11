@@ -220,23 +220,37 @@ namespace SCCM2007PackageFolderManager.Controllers
             };
         }
 
-        public bool Save()
+        public bool Save(bool ApplyChanges = true)
         {
             BackgroundWorker worker = new BackgroundWorker();
             worker.DoWork += new DoWorkEventHandler(BeginSave);
             worker.RunWorkerCompleted += new RunWorkerCompletedEventHandler(EndSave);
 
-            worker.RunWorkerAsync();
+            object applyChanges = ApplyChanges;
+            worker.RunWorkerAsync(applyChanges);
 
             return true;
         }
 
         private void BeginSave(object sender, DoWorkEventArgs e)
         {
-            //Todo: check if service exists and is running, if it is push update to service
-            foreach (var pl in packageFolders)
+            bool applyChanges = true;
+
+            object arg = e.Argument;
+            if (arg != null)
             {
-                UpdatePackageFolders(pl);
+                if (arg.GetType() == typeof(bool))
+                {
+                    applyChanges = (bool)arg;
+                }
+            }
+
+            if (applyChanges)
+            {
+                foreach (var pl in packageFolders)
+                {
+                    UpdatePackageFolders(pl);
+                }
             }
 
             mappingController.SaveMappings(packageFolders, smsController.ServerName);
@@ -258,6 +272,14 @@ namespace SCCM2007PackageFolderManager.Controllers
             }
 
             smsController.ModifyDistributionPointsForPackageFolder(pl);
+        }
+
+        public string[] GetSavedServers()
+        {
+            if (mappingController == null)
+                return new string[] { };
+
+            return mappingController.GetServers().ToArray();
         }
     }
 }

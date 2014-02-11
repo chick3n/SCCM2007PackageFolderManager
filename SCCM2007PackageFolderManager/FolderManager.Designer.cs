@@ -45,6 +45,7 @@
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.lstOutput = new System.Windows.Forms.ListBox();
             this.btnClear = new System.Windows.Forms.Button();
+            this.btnSaveOnly = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -102,11 +103,11 @@
             // 
             // btnApply
             // 
-            this.btnApply.Location = new System.Drawing.Point(772, 518);
+            this.btnApply.Location = new System.Drawing.Point(764, 518);
             this.btnApply.Name = "btnApply";
-            this.btnApply.Size = new System.Drawing.Size(75, 23);
+            this.btnApply.Size = new System.Drawing.Size(83, 23);
             this.btnApply.TabIndex = 2;
-            this.btnApply.Text = "Apply";
+            this.btnApply.Text = "Save && Apply";
             this.btnApply.UseVisualStyleBackColor = true;
             this.btnApply.Click += new System.EventHandler(this.btnApply_Click);
             // 
@@ -191,12 +192,23 @@
             this.btnClear.UseVisualStyleBackColor = true;
             this.btnClear.Click += new System.EventHandler(this.btnClear_Click);
             // 
+            // btnSaveOnly
+            // 
+            this.btnSaveOnly.Location = new System.Drawing.Point(682, 519);
+            this.btnSaveOnly.Name = "btnSaveOnly";
+            this.btnSaveOnly.Size = new System.Drawing.Size(75, 23);
+            this.btnSaveOnly.TabIndex = 10;
+            this.btnSaveOnly.Text = "Save";
+            this.btnSaveOnly.UseVisualStyleBackColor = true;
+            this.btnSaveOnly.Click += new System.EventHandler(this.button1_Click);
+            // 
             // FolderManager
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(860, 554);
+            this.Controls.Add(this.btnSaveOnly);
             this.Controls.Add(this.btnClear);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.btnCloseFolders);
@@ -237,6 +249,7 @@
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.ListBox lstOutput;
         private System.Windows.Forms.Button btnClear;
+        private System.Windows.Forms.Button btnSaveOnly;
     }
 }
 
